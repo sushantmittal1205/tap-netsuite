@@ -11,13 +11,13 @@ setup(
     classifiers=['Programming Language :: Python :: 3 :: Only'],
     py_modules=['tap_netsuite'],
     install_requires=[
-        'netsuitesdk==2.7.0', # USING THE HOTGLUE VERSION
-        'requests==2.21.0',
-        'singer-python==5.3.1',
-        'xmltodict==0.11.0',
-        'jsonpath-ng==1.4.3',
-        'jsonschema==2.6.0',
-        'pytz==2018.4'
+        'netsuitesdk', # USING THE HOTGLUE VERSION
+        'requests',
+        'singer-python',
+        'xmltodict',
+        'jsonpath-ng',
+        'jsonschema',
+        'pytz'
     ],
     entry_points='''
         [console_scripts]
